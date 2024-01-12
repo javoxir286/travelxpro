@@ -1,0 +1,145 @@
+.alls {
+  text-align: center;
+  margin-top: 10%;
+  line-height: 38px;
+}
+
+.bestt {
+  font-size: 36px;
+  color: #474747;
+}
+
+.contri {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 40px;
+  gap: 30px;
+  margin-top: 90px;
+  ul {
+    li {
+      &:nth-child(2) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+}
+
+.vie {
+  padding: 7px 16px;
+  background-color: #1f39ba;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+}
+
+span{
+  color: #db6300;
+}
+
+.book-trip{
+    display: flex;
+    flex-direction: column;
+    line-height: 33px;
+}
+
+.container-hero-tips{
+  display: flex;
+  margin-top: 12%;
+}
+
+.book-trip-left{
+ margin-top: 8%;
+}
+
+.book-trip-right{
+  margin-left: 130px ;
+}
+
+.tourist-feedback{
+  text-align: center;
+  line-height: 37px;
+}
+
+.feedback{
+  margin-top: 160px;
+
+}
+
+.main-div-hero{
+  margin-top: 70px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.vonex{
+  margin-top: 33px;
+}
+
+.vect-sec{
+  display: flex;
+  margin-top: 160px;
+}
+
+input{
+  color: #CACACA;
+  border: none;
+  border-bottom: 1px solid #CACACA;
+  width: 444px;
+  height: 95px;
+}
+
+.registor{
+  margin-top: 200px;
+}
+
+.getin{
+  text-align: center;
+  justify-content: center;
+  line-height: 35px;
+}
+
+.reg-register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  line-height: 50px;
+}
+
+.regis-btn{
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 10px 40px;
+  color: #FFFFFF;
+  background-color: #1F39BA;
+  border-radius: 8px;
+  border: none;
+}
+
+.forms-third{
+  button[type=submit] {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type=submit]:hover {
+    background-color: darkpurple;
+  }
+}
+
+footer{
+  background-image: url("../../img/footer.png");
+  background-color: #0600AE;
+  background-repeat: no-repeat;
+}

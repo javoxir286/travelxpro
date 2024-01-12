@@ -1,0 +1,109 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-image: url(../../img/Group\ 262.png);
+  padding: 30px 45px;
+  display: flex;
+  flex-direction: column;
+  background-size: contain;
+  width: 1349px;
+  height: 100vh;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  gap:20%;
+}
+
+.container {
+  padding: 30px 45px;
+  display: flex;
+  flex-direction: column;
+  background-size: contain;
+  width: 1349px;
+  height: 100vh;
+  background-position-x: right;
+  background-repeat: no-repeat;
+  gap: 20%;
+  padding: 30px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sapotas {
+  color: #0600ae;
+}
+
+.lists {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+.travel {
+  color: #0600ae;
+  font-size: 36px;
+}
+
+.hero-section_header {
+  font-size: 60px;
+  max-width: 50%;
+  color: #474747;
+}
+
+.hero-section-paragraf {
+  color: #666666;
+}
+
+.location-section {
+  display: flex;
+  gap: 30%;
+  background-color: #fff;
+  border-radius: 5px;
+  border-radius: 8px;
+}
+
+.btn {
+  padding: 5px 38px;
+  border-radius: 8px;
+  background-color: #1f39ba;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+.sign {
+  color: #ffffff;
+}
+
+.nav {
+  white-space: nowrap;
+}
+
+@media (max-width: 499px) {
+  .lists li:nth-child(4),
+  .lists li:nth-child(3) {
+    display: none;
+  }
+}
+
+@media (max-width: 425px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 14px 10px;
+  }
+}
